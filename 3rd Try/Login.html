@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css"> <!-- Linking CSS -->
+</head>
+<body>
+
+    <!-- Intro Screen -->
+    <div id="intro-screen">
+        <img src="images/Logo.webp" alt="Intro Image">
+    </div>
+
+    <!-- Login Page -->
+    <header>
+        <h1>Login</h1>
+    </header>
+    
+    <section>
+        <form action="/submit" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <button type="submit">Login</button>
+            <a href="Create-Account.html" class="button">Create Account</a>
+        </form>
+    </section>
+
+    <footer>
+        <p> Powered by &copy; 2025 DIR. All rights reserved.</p>
+    </footer>
+
+    <script src="Login.js"></script> <!-- Linking JavaScript -->
+</body>
+</html>
